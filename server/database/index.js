@@ -5,4 +5,5 @@ const bookshelfUuid = require('bookshelf-uuid');
 const bookshelfCamelCase = require('bookshelf-camelcase');
 
 bookshelf.plugin([bookshelfUuid, bookshelfCamelCase, 'registry']);
+bookshelf.plugin('pagination');
 module.exports = bookshelf;
